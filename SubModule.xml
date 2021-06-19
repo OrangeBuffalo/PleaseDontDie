@@ -1,0 +1,27 @@
+﻿<Module>
+  <Name value="Please Don't Die"/>
+  <Id value="PleaseDontDie"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+    <DependedModule Id="StoryMode" />
+	<DependedModule Id="Bannerlord.Harmony" />
+	<DependedModule Id="Bannerlord.MBOptionScreen" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="PleaseDontDie"/>
+      <DLLName value="PleaseDontDie.dll"/>
+      <SubModuleClassType value="PleaseDontDie.PleaseDontDie_SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  <Xmls/>
+</Module>
